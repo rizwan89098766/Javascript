@@ -1,0 +1,180 @@
+:root {
+    --light1: #8EAC50;
+    --dark1: #001524;
+    --text: #092e26;
+    --accent1: #005B41;
+    --accent2: #ECFFC3;
+  }
+  
+  .exo-2-font {
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+  
+  * {
+    background-color: var(--light1);
+    font-family: "Exo 2";
+    overflow-x: hidden
+  }
+  
+  
+  #main-container * {
+    background-color: var(--accent2)
+  }
+  
+  h1 {
+    font-size: 40px;
+    color: var(--dark1);
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  h2 {
+    font-size: 25px;
+    text-align: center;
+    margin-top: 45px;
+    font-weight: 500;
+    margin-bottom: 5px
+  }
+  
+  #cash {
+    height: 40px;
+    width: 70vw;
+    max-width: 600px;
+    margin: auto;
+    display: block;
+    background-color: var(--accent2);
+    color: var(--accent1);
+    font-size: 20px;
+    padding-left: 15px;
+    border: solid 3px var(--accent1)
+  }
+  
+  #purchase-btn {
+    margin: 15px auto;
+    display: block;
+    background-color: var(--accent1);
+    border: solid 3px var(--dark1);
+    border-radius: 40px;
+    color: var(--accent2);
+    font-size: 20px;
+    padding: 5px 10px;
+  }
+  
+  #purchase-btn:active {
+    background-color: var(--text);
+    color: var(--light1);
+  }
+  
+  #price-display {
+    margin: auto;
+    width: 96vw;
+  }
+  
+  #change-due {
+    font-size: 25px;
+    text-align: center;
+    font-weight: 500;
+    background-color: rgba(0, 0, 0, 0);
+    padding: 5px;
+    width: 47%;
+    max-width: 300px;
+    position: absolute;
+    top: 620px;
+    left: 42vw;
+  }
+  
+  #price-display p {
+    font-size: 35px;
+    font-weight: 600;
+    background: rgba(0, 0, 0, 0);
+    position: absolute;
+    left: 50vw;
+  }
+  
+  #price-display span {
+    background: rgba(0, 0, 0, 0)
+  }
+  
+  @media (min-width:350px) {
+    #change-due {
+      top: 450px;
+    }
+  }
+  
+  @media (min-width:550px) {
+    #change-due {
+      top: 500px;
+    }
+  }
+  
+  @media (max-width:580px) {
+    #price-display p {
+      font-size: 6vw
+    }
+  }
+  
+  @media (max-width:650px) {
+    #change-due {
+      left: 40%;
+      font-size: 4vw;
+    }
+  }
+  
+  @media (min-width:700px) {
+    #change-due {
+      top: 500px;
+      left: 42%;
+    }
+  }
+  
+  @media (min-width:800px) {
+    #change-due {
+      left: 44%;
+    }
+  }
+  
+  @media (min-width: 1180px) {
+    #change-due {
+      left: 45.5%;
+    }
+  }
+  
+  .cashier-icon {
+    width: 88vw;
+    max-width: 600px;
+    display: block;
+    margin: auto;
+  }
+  
+  #change-in-drawer, #change-in-drawer * {
+    background-color: var(--accent2)
+  }
+  
+  #change-in-drawer {
+    padding: 4px 40px;
+    margin: auto;
+    width: 55vw;
+    max-width: 425px;
+    border: solid 6px var(--text);
+    border-radius: 40px;
+  }
+  
+  #change-in-drawer *{
+    text-align: center;
+  }
+  
+  #change-in-drawer h3 {
+    margin-top: 10px;
+  }
+  
+  #change-in-drawer p {
+    font-weight: 600;
+    margin: 0;
+    padding-bottom: 5px
+  }
+  
+  #change-in-drawer span {
+    font-weight: 400;
+  }
